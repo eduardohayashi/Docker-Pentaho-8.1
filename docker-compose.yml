@@ -1,0 +1,8 @@
+version: "3"
+services:
+    pentaho-server:
+#        restart: none
+        container_name: pentaho-server
+        ports:
+            - '8030:8080'
+        image: pentaho-server:latest
